@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Belgrano&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 :root{
 	--color-purple: 	#534582;
 	--color-blue: 		#367BC2;
@@ -6,4 +9,43 @@
 	--color-orange: 	#FF9100;
 	--color-white: 		#F1F1F1;
 	--color-black: 		#353535;
+
+	--font-title-banner: 400 4.5rem/1.26 'Belgrano';
+
+	--font-h1: 400 3rem/1.27 'Belgrano';
+	--font-h2: 400 2.5rem/1.275 'Belgrano';
+	--font-h3: 400 2.25rem/1.27 'Belgrano';
+	--font-h4: 400 1.875rem/1.26 'Belgrano';
+	--font-h5: 400 1.5rem/1.25 'Belgrano';
+	--font-h6: 400 1.375rem/1.27 'Belgrano';
+
+	--font-text: 400 1.125rem/1.5625 'Open Sans';
+
+	--font-list: 400 1.125rem/1.5625 'Lato';
+
+	--font-btn: 700 1.5rem/1.2 'Lato';
+
+	--font-menu: 400 1.5rem/1.2 'Lato';
+}
+@media (max-width: 991px){
+	:root{
+		--font-title-banner: 400 3.2rem/1.26 'Belgrano';
+
+		--font-h1: 400 2.25rem/1.27 'Belgrano';
+		--font-h2: 400 2rem/1.28 'Belgrano';
+		--font-h3: 400 1.75rem/1.28 'Belgrano';
+		--font-h4: 400 1.5rem/1.25 'Belgrano';
+		--font-h5: 400 1.375rem/1.25 'Belgrano';
+		--font-h6: 400 1.25rem/1.25 'Belgrano';
+	}
+}
+@media (max-width: 575px){
+	:root{
+		--font-title-banner: 400 1.875rem/1.26 'Belgrano';
+
+		--font-h1: 400 1.875rem/1.26 'Belgrano';
+		--font-h2: 400 1.75rem/1.28 'Belgrano';
+		--font-h3: 400 1.625rem/1.26 'Belgrano';
+		--font-h4: 400 1.5rem/1.25 'Belgrano';
+	}
 }
