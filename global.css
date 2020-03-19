@@ -108,13 +108,15 @@ a:focus,input:focus,button:focus,textarea:focus,.btn:focus{
 
 	background: var(--color-orange);
 	color: var(--color-white);
+	--shodow-btn:4px 8px 10px hsla(0,0%,0%,.25);
+	box-shadow: var(--shodow-btn), inset 0 0 0 0px var(--color-green),inset 0 0 0 0px var(--color-cian);
 }
 .btn:hover,.btn2:hover{
-	box-shadow: inset 0 0 0 0px var(--color-green),inset 0 0 0 50px var(--color-cian);
+	box-shadow: var(--shodow-btn), inset 0 0 0 0px var(--color-green),inset 0 0 0 50px var(--color-cian);
 	color: var(--color-black);
 }
 .btn:active,.btn2:active{
-	box-shadow: inset 0 0 0 4px var(--color-green),inset 0 0 0 50px var(--color-cian);
+	box-shadow: var(--shodow-btn), inset 0 0 0 4px var(--color-green),inset 0 0 0 50px var(--color-cian);
 	color: var(--color-black);
 }
 .btn2{
@@ -183,6 +185,9 @@ header li.active a{
 header .logo{
 	padding: 0;
 }
+header .logo:hover{
+	box-shadow: none;
+}
 header .btn_menu{
 	width: 40px;
 	height: 34px;
@@ -230,11 +235,44 @@ header:target .btn_menu a[href^='#m']{
 	z-index: 0;
 }
 @media (max-width: 991px){
+	header {
+		position: relative;
+		overflow: hidden;
+	}
 	header .menu{
+		padding: 15px 0;
+		overflow: auto;
 		position: fixed;
+		transition: .5s;
 		width: 100%;
 		height: calc(100vh - var(--height-header));
 		top: var(--height-header);
+		left: 100%;
+		background: var(--color-blue);
+	}
+	header:before{
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		display: block;
+		top: 0;
+		left: 100%;
+		background: var(--color-blue);
+		box-shadow: inset 0 -10px var(--color-purple);
+		transition: .5s;
+	}
+	header:target:before{
 		left: 0;
+	}
+	header:target .menu{
+		left: 0;
+	}
+	header li{
+		width: 100%;
+	}
+	header .btn{
+		margin-left: 15px;
+		margin-top: 55px;
 	}
 }
