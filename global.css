@@ -123,6 +123,18 @@ a:focus,input:focus,button:focus,textarea:focus,.btn:focus{
 	--color-cian: var(--color-purple);
 	--color-black: var(--color-white);
 }
+/*img*/
+picture{
+	display: inline-block;
+	position: relative;
+}
+img{
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+	object-position: center;
+}
 /*header*/
 :root{
 	--height-header: 114px;
