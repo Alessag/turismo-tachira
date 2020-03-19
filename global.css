@@ -276,3 +276,22 @@ header:target .btn_menu a[href^='#m']{
 		margin-top: 55px;
 	}
 }
+/*body and html*/
+html{
+	overflow: auto;
+	scroll-behavior: smooth;
+}
+body{
+	font: var(--font-text);
+	letter-spacing: 0;
+
+	background: var(--color-purple);
+	color: var(--color-white);
+
+	padding-top: var(--height-header);
+	width: 100%;
+	min-height: 100vh;
+	height: auto;
+	
+	overflow: hidden;
+}
