@@ -49,3 +49,36 @@
 		--font-h4: 400 1.5rem/1.25 'Belgrano';
 	}
 }
+.title_banner{
+	font: var(--font-title-banner);
+}
+h1,.h1{
+	font: var(--font-h1);
+}
+h2,.h2{
+	font: var(--font-h2);
+}
+h3,.h3{
+	font: var(--font-h3);
+}
+h4,.h4{
+	font: var(--font-h4);
+}
+h5,.h5{
+	font: var(--font-h5);
+}
+h6,.h6{
+	font: var(--font-h6);
+}
+p,.text{
+	font:var(--font-text);
+}
+ul,ol,li,.list{
+	font: var(--font-list);
+}
+a,input,button,.btn{
+	font: var(--font-btn);
+}
+.menu,.menu a{
+	font: var(--font-menu);
+}
