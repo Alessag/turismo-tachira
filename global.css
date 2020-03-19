@@ -122,3 +122,47 @@ a:focus,input:focus,button:focus,textarea:focus,.btn:focus{
 	--color-cian: var(--color-purple);
 	--color-black: var(--color-white);
 }
+/*header*/
+:root{
+	--height-header: 114px;
+}
+header{
+	width: 100%;
+	height: 114px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: var(--color-purple);
+	color: var(--color-white);
+	box-shadow: inset 0 -10px var(--color-blue);
+	display: flex;
+	align-items: center;
+}
+header ul{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+}
+header li{
+	padding: 0;
+	margin: 0;
+}
+header a{
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--color-white);
+	padding: 0 15px;
+	height: 49px;
+}
+header a:hover{
+	color: var(--color-white);
+	box-shadow: 0 17px 0 -14px var(--color-cian);
+}
+header li.active a{
+	box-shadow: 0 0 0 3px var(--color-cian);
+}
