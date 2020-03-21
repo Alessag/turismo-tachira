@@ -49,6 +49,10 @@
     /* height: 130px; */
 }
 
+.dropbtn {
+    margin-bottom: 0;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -88,7 +92,6 @@
     background-color: var(--color-blue);
     padding: 0;
     margin: 10px;
-    
 }
 
 #items h3, button {
