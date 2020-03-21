@@ -34,3 +34,39 @@
         height: 2000px;
     }
 }  
+
+/*------------------------------------*    
+                SUSCRIBETE
+\*------------------------------------*/
+#suscribete {
+    --height-img: 325px; 
+
+    /* height: var(--height-img); */
+    position: relative;
+    display: inline-block;
+}
+
+#suscribete picture{
+    width: 100%;
+}
+
+#suscribete img {
+    width: 100%;
+    height: var(--height-img);
+}
+
+#suscribete .content {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; 
+    text-align: center;
+    width: 60%;
+}
+
+#suscribete form input:first-child{
+    padding: 1%;
+    margin: 0 3px 5px 0;
+}
