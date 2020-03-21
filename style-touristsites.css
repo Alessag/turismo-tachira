@@ -1,11 +1,8 @@
 /*------------------------------------*    
-        ITEMS
+                ITEMS
 \*------------------------------------*/
 #items {
-    --height: 1800px;
-    border: 1px solid mediumspringgreen;
-
-    height: var(--height);
+    height: 2000px;;
 }
 
 #items .item-desc{    
@@ -19,3 +16,21 @@
 #items h3, button {
     margin: 20px 0 30px 0;
 }
+
+@media (min-width: 576px){
+    #items{
+        height: 5737px;
+    }
+}
+
+ @media (min-width: 767px){
+    #items{
+        height: 2860px;
+    }
+}
+
+@media (min-width: 992px){
+    #items {
+        height: 2000px;
+    }
+}  
