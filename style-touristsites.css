@@ -1,4 +1,39 @@
 /*------------------------------------*    
+                BANNER
+\*------------------------------------*/
+#banner {
+    --height-img: 900px; 
+
+    position: relative;
+    display: inline-block;
+}
+
+#banner img {
+    width: 100%;
+    height: var(--height-img);
+}
+
+#banner picture{
+    width: 100%;
+}
+
+#banner .content {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; 
+    text-align: center;
+    width: 60%;
+}
+
+#banner form input:first-child{
+    padding: 1%;
+    margin: 0 3px 5px 0;
+}
+
+/*------------------------------------*    
                 ITEMS
 \*------------------------------------*/
 #items {
