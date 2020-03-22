@@ -1,0 +1,127 @@
+/*------------------------------------*    
+                BANNER
+\*------------------------------------*/
+#banner {
+    --height-img: 900px; 
+
+    position: relative;
+    display: inline-block;
+}
+
+#banner img {
+    width: 100%;
+    height: var(--height-img);
+}
+
+#banner picture{
+    width: 100%;
+}
+
+#banner .content {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; 
+    text-align: center;
+    width: 60%;
+}
+
+#banner form input:first-child{
+    padding: 1%;
+    margin: 0 3px 5px 0;
+}
+
+/*------------------------------------*    
+                SEARCH
+\*------------------------------------*/
+#search {
+    background-color: var(--color-blue);
+}
+
+#search .row {
+    padding: 10px 0 10px 0;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /* height: 130px; */
+}
+
+.dropbtn {
+    margin-bottom: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--color-purple);
+    /* color: var(--color-white); */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}  
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#search .right-content .form-control{
+    margin-top: 20px;
+    height: 45px;
+}
+
+@media (min-width: 992px){
+    .right-content{
+        order: 2;
+    }
+ }
+
+/*------------------------------------*   
+                ITEMS
+\*------------------------------------*/
+#items {
+    height: 2000px;
+    padding-top: 70px;
+}
+
+#items .item-desc{    
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    padding: 0;
+    margin: 10px;
+}
+
+#items h3, button {
+    margin: 20px 0 30px 0;
+}
+
+#items .more-sites{
+    padding-top: 70px;
+}
+
+@media (min-width: 576px){
+    #items{
+        height: 5870px;
+    }
+}
+
+ @media (min-width: 767px){
+    #items{
+        height: 2900px;
+    }
+}
+
+@media (min-width: 992px){
+    #items {
+        height: 1900px;
+    }
+}
