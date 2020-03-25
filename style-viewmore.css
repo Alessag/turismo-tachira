@@ -23,12 +23,25 @@
 
 #main-container{
     height: 963px;
+    display: flex;
+    flex-direction: column;
 }
 
 #main-container h1{
-    margin: 191px 0 78px 0;
+    margin: 189px 0 78px 0;
 }
 
 #main-container .btn{
     margin-top: 78px;
+    margin-bottom: 132px;
+}
+
+#main-container .blue-right, .blue-left {
+    background: var(--color-blue);
+    height: 57px;
+    width: calc(100% - 36%);
+}
+
+#main-container .blue-right{
+    align-self: flex-end;
 }
