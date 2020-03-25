@@ -99,6 +99,9 @@
     padding: 0;
     margin: 10px;
 }
+#items .item-desc a{
+    color: var(--color-white);
+}    
 
 #items h3, button {
     margin: 20px 0 30px 0;
