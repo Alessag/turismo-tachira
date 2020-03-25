@@ -4,6 +4,7 @@
 #banner {
     --height-img: 900px; 
 
+    width: 100%;
     position: relative;
     display: inline-block;
 }
@@ -111,20 +112,26 @@
     padding-top: 70px;
 }
 
-@media (min-width: 576px){
-    #items{
-        height: 5870px;
-    }
-}
-
- @media (min-width: 767px){
-    #items{
-        height: 2900px;
-    }
-}
-
-@media (min-width: 992px){
+@media (max-width: 992px){
     #items {
-        height: 1900px;
+        height: 2930px;
+    }
+} 
+
+@media (max-width: 767px){
+    #items{
+        height: 5900px;
     }
 }
+
+ @media (max-width: 576px){
+    #items{
+        height: 5813px;
+    }
+
+    #items .more-sites{
+        padding-top: 0px;
+    }
+}
+
+ 
