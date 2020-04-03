@@ -101,12 +101,20 @@
     #items {
         height: 2930px;
     }
+    
+    #search .right-content .form-control{
+        margin-bottom: 20px;
+   }
 } 
 
 @media (max-width: 767px){
     #items{
         height: 5900px;
     }
+
+    #search .right-content .form-control{
+        margin-bottom: 20px;
+   }
 }
 
  @media (max-width: 576px){
@@ -116,6 +124,10 @@
 
     #items .more-sites{
         padding-top: 0px;
+    }
+
+    #search .right-content .form-control{
+         margin-bottom: 20px;
     }
 }
 
