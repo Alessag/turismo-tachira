@@ -39,11 +39,17 @@
 \*------------------------------------*/
 #search {
     background-color: var(--color-blue);
+    padding: 20px 0 20px 0;
 }
 
 #search .row {
     padding: 10px 0 10px 0;
 }
+
+#search .search-button {
+    margin: 0;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -51,7 +57,7 @@
 }
 
 .dropbtn {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .dropdown-content {
@@ -71,12 +77,20 @@
     display: block;
 }
   
-.dropdown-content a:hover {background-color: #ddd;}
-.dropdown:hover .dropdown-content {display: block;}  
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}  
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
 
 #search .right-content .form-control{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     height: 45px;
 }
 
