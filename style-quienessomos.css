@@ -38,77 +38,89 @@
 /*------------------------------------*    
                 TOURIST SITES
 \*------------------------------------*/
-.sitios_turistios{
+.sitios_turisticos{
 	padding: var(--size-ret) 0;
 	background: var(--color-blue);
 	position: relative;
 }
-.sitios_turistios:before,
-.sitios_turistios:after{
+.sitios_turisticos:before,
+.sitios_turisticos:after{
 	content: '';
 	position: absolute;
 	width: 75%;
 	height: var(--size-ret);
 	background: var(--color-purple);
 }
-.sitios_turistios:before{
+.sitios_turisticos:before{
 	top: 0;
 	right: 0;
 }
-.sitios_turistios:after{
+.sitios_turisticos:after{
 	bottom: 0;
 	left: 0;
 }
-.sitios_turistios .title{
+.sitios_turisticos .title{
 	margin-bottom: 42px;
 }
-.sitios_turistios .content_img{
+.sitios_turisticos .content_img{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-bottom: -30px;
 }
-.sitios_turistios .content_img a{
+.sitios_turisticos .content_img a{
 	display: block;
 	width: calc(50% - 15px);
 	margin-bottom: 30px;
 }
-.sitios_turistios .content_img picture{
+.sitios_turisticos .content_img picture{
 	width: 100%;
 	overflow: hidden;
 }
-.sitios_turistios .content_img img{
+.sitios_turisticos .content_img img{
 	width: 100%;
 	height: 295px;
 	transition: .5s;
 }
-.sitios_turistios .content_img picture:hover img{
+.sitios_turisticos .content_img picture:hover img{
 	transform: scale(1.2) rotateZ(5deg);
 }
+
+#sitiosTuristicos .purple-right, .purple-left {
+    background: var(--color-purple);
+    color: var(--color-purple);
+    height: 57px;
+    width: calc(100% - 36%);
+}
+
+#sitiosTuristicos .purple-right{
+    align-self: flex-end;
+}
+
 @media (max-width: 991px){
-	.sitios_turistios .title{
+	.sitios_turisticos .title{
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
-	.sitios_turistios .btn{
+	.sitios_turisticos .btn{
 		margin-bottom: 25px;
 	}
-	.sitios_turistios .content_img img{
+	.sitios_turisticos .content_img img{
 		height: 264px;
 	}
 }
 @media (max-width: 575px){
-	.sitios_turistios .content_img a{
+	.sitios_turisticos .content_img a{
 		min-width: 60%;
 		width: 257px;
 	}
-	.sitios_turistios .content_img a:not(:last-child){
+	.sitios_turisticos .content_img a:not(:last-child){
 		margin-bottom: -60px;
 	}
-	.sitios_turistios .content_img a:nth-child(2n){
+	.sitios_turisticos .content_img a:nth-child(2n){
 		margin-left: auto;
 	}
-	.sitios_turistios .content_img img{
+	.sitios_turisticos .content_img img{
 		height: 264px;
 	}
 }
