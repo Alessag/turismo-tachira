@@ -40,6 +40,7 @@
 
 #contactanos {
     height: 899px;
+    background-color: rgb(235, 11, 115);
 }
 
 #contactanos .form-container{
@@ -49,8 +50,8 @@
 }
 
 #contactanos .form-content {
-    padding: 0 130px 0 200px;
-    margin: 100px 0 134px 0;
+    padding: 0 80px 0 120px;
+    margin-top: 45px;
 }
 
 #contactanos .form-control {
@@ -68,8 +69,10 @@
     width: calc(100% - 48%);
 }
 
- #contactanos .blue-right{
-    align-self: flex-end;
+#contactanos .blue-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 #contactanos .form-container h3{
@@ -82,4 +85,61 @@
 
 #contactanos .map {
 	padding: 0;
+}
+
+@media (max-width: 992px){
+    #contactanos {
+        background-color: rgb(34, 7, 110);
+    }
+
+    #contactanos .form-container{
+        height: 899px;
+    }
+
+    #contactanos .form-content {
+        padding: 0 40px 0 40px;
+        margin: 0 auto;
+    }
+
+    #contactanos .form-container h3{
+        margin: 178px 0 40px 0;
+    }
+} 
+
+@media (max-width: 767px){
+    #contactanos {
+        background-color: red;
+    }
+
+    #contactanos .form-container{
+        height: 899px;
+    }
+
+    #contactanos .form-content {
+        padding: 0 40px 0 40px;
+        margin: 0 auto;
+    }
+
+    #contactanos .form-container h3{
+        margin: 120px 0 40px 0;
+    }
+}
+
+ @media (max-width: 576px){
+    #contactanos {
+        background-color: yellowgreen;
+    }
+
+    #contactanos .form-container{
+        height: 899px;
+    }
+
+    #contactanos .form-content {
+        padding: 0 40px 0 40px;
+        margin: 100px 0 149px 0;
+    }
+
+    #contactanos .form-container h3{
+        margin: 59px 0 40px 0;
+    }
 }
