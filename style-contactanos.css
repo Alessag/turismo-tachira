@@ -35,7 +35,7 @@
 } 
 
 /*------------------------------------*    
-                ABOUT US
+                CONTACT US
 \*------------------------------------*/
 
 #contactanos {
@@ -116,7 +116,7 @@
     }
 }
 
- @media (max-width: 576px){
+@media (max-width: 576px){
      #contactanos .form-container{
         height: 899px;
     }
