@@ -27,6 +27,7 @@
 #main-container{
     height: 963px;
     display: flex;
+    position: relative;
     flex-direction: column;
 }
 
@@ -35,7 +36,7 @@
 }
 
 #main-container .btn{
-    margin: 118px 0 132px 0;
+    margin-top: 118px;
 }
 
 #main-container .blue-right, .blue-left {
@@ -43,6 +44,12 @@
     color: var(--color-blue);
     height: 57px;
     width: calc(100% - 36%);
+}
+
+#main-container .blue-left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 #main-container .blue-right{
@@ -77,13 +84,13 @@
     }
 }
 
- @media (max-width: 576px){
+@media (max-width: 576px){
     #main-container h1{
-        margin: 60px 0 33px 0;
+        margin: 15px 0 15px 0;
     }
 
     #main-container .btn{
-        margin: 48px 0 51px 0;
+        margin-top: 30px;
     }
 }
 
