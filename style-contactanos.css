@@ -39,5 +39,47 @@
 \*------------------------------------*/
 
 #contactanos {
-	height: 899px;
+    height: 899px;
+}
+
+#contactanos .form-container{
+	display: flex;
+    flex-direction: column;
+    padding-right: 0;
+}
+
+#contactanos .form-content {
+    padding: 0 130px 0 200px;
+    margin: 100px 0 134px 0;
+}
+
+#contactanos .form-control {
+    border-radius: 0;
+}
+
+#contactanos textarea {
+    height: 158px;
+}
+
+#contactanos .blue-right, .blue-left {
+    background: var(--color-blue);
+    color: var(--color-blue);
+    height: 57px;
+    width: calc(100% - 48%);
+}
+
+ #contactanos .blue-right{
+    align-self: flex-end;
+}
+
+#contactanos .form-container h3{
+	margin: 120px 0 40px 0;
+}
+
+#contactanos .form-container .form-group{
+	margin: 10px 0 10px 0;
+}
+
+#contactanos .map {
+	padding: 0;
 }
