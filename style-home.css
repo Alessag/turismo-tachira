@@ -286,6 +286,27 @@
 }
 
 /*------------------------------------*    
+                CONTACT US
+\*------------------------------------*/
+
+#contactanos .blue-right, .blue-left {
+    background: var(--color-blue);
+    color: var(--color-blue);
+    height: 57px;
+    width: calc(100% - 35%);
+}
+
+#contactanos .blue-left{
+    position: absolute;
+    right: 0;
+}
+
+#contactanos .blue-right{
+    position: absolute;
+    bottom: 0;
+}
+
+/*------------------------------------*    
                 KEEP IN TOUCH
 \*------------------------------------*/
 
