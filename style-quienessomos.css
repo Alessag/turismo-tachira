@@ -1,4 +1,35 @@
 /*------------------------------------*    
+                HEADER
+\*------------------------------------*/
+header .menu  ul {
+	display: flex;
+}
+
+header ul > li {
+	list-style: none;
+	padding: 0 10px;
+}
+
+header a {
+	color: var(--color-white);
+	text-decoration: none;
+}
+
+header .collapse {
+	justify-content: center;
+}
+
+.bg-dark {
+	background-color: var(--color-purple) !important;
+}
+
+@media (max-width: 992px){
+    header .btn-login {
+		display: none;
+	}
+} 
+
+/*------------------------------------*    
                 BANNER
 \*------------------------------------*/
  #banner {

@@ -141,7 +141,7 @@ img{
 :root{
 	--height-header: 114px;
 }
-header{
+/* header{
 	width: 100%;
 	height: 114px;
 	position: fixed;
@@ -261,7 +261,7 @@ header:target .btn_menu a[href^='#m']{
 		background: var(--color-blue);
 		box-shadow: inset 0 -10px var(--color-purple);
 		transition: .5s;
-	} */
+	} 
 	header:target:before{
 		left: 0;
 	}
@@ -275,7 +275,7 @@ header:target .btn_menu a[href^='#m']{
 		margin-left: 15px;
 		margin-top: 55px;
 	}
-}
+} */
 /*body and html*/
 html{
 	overflow: auto;
