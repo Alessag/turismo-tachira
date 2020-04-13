@@ -228,3 +228,24 @@
     }
    
 }
+
+/*------------------------------------*    
+                Body
+\*------------------------------------*/
+
+@media (max-width: 991px){
+	body {
+		margin-top: 0;
+	}
+
+	#header::before{
+		box-shadow: 0;
+	}
+	#banner {
+		z-index: 0;
+	}
+
+	#menu .menu {
+		z-index: 1;
+	}
+}

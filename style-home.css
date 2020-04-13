@@ -1,3 +1,23 @@
+
+@media (max-width: 991px){
+	body {
+		margin-top: 0;
+	}
+
+	#header::before{
+		box-shadow: 0;
+	}
+	#banner {
+		z-index: 0;
+	}
+
+	#menu .menu {
+		z-index: 1;
+	}
+}
+
+
+
 .banner{
 	--height:900px;
 	--width-arrow:63px;
@@ -426,9 +446,9 @@
         height: 610px;
     }
 
-    #contactanos {
+    /* #contactanos {
         height: 1798px;
-    }
+    } */
 
     #footer .rs > a {
         padding: 10px 10px;
