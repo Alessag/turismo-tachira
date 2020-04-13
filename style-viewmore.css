@@ -39,6 +39,10 @@
     margin-top: 118px;
 }
 
+#main-container button > a {
+    color: var(--color-white);
+}
+
 #main-container .blue-right, .blue-left {
     background: var(--color-blue);
     color: var(--color-blue);
