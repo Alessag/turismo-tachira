@@ -1,9 +1,6 @@
-/* header {
-	display: flex;
-	background: black;
-	color: black;
-} */
-
+/*------------------------------------*    
+                HEADER
+\*------------------------------------*/
 header .menu  ul {
 	display: flex;
 }
@@ -32,6 +29,9 @@ header .collapse {
 	}
 } 
 
+/*------------------------------------*    
+                BANNER
+\*------------------------------------*/
 .banner{
 	--height:900px;
 	--width-arrow:63px;
