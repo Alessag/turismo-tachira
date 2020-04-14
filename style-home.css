@@ -378,6 +378,10 @@ header .collapse {
     bottom: 0;
 }
 
+#contactanos {
+	text-align: justify;
+}
+
 /*------------------------------------*    
                 KEEP IN TOUCH
 \*------------------------------------*/
@@ -401,7 +405,7 @@ header .collapse {
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 40%;
+    top: 20%;
     text-align: center;
     width: 60%;
 }

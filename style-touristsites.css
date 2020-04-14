@@ -112,7 +112,7 @@ header .collapse {
                 ITEMS
 \*------------------------------------*/
 #items {
-    height: 2000px;
+    height: auto;
     padding-top: 70px;
 }
 
@@ -134,31 +134,19 @@ header .collapse {
     padding-top: 70px;
 }
 
-@media (max-width: 992px){
-    #items {
-        height: 2930px;
-    }
-    
+@media (max-width: 992px){   
     #search .right-content .form-control{
         margin-bottom: 20px;
    }
 } 
 
 @media (max-width: 767px){
-    #items{
-        height: 5900px;
-    }
-
-    #search .right-content .form-control{
+	#search .right-content .form-control{
         margin-bottom: 20px;
    }
 }
 
  @media (max-width: 576px){
-    #items{
-        height: 5813px;
-    }
-
     #items .more-sites{
         padding-top: 0px;
     }
@@ -168,6 +156,9 @@ header .collapse {
     }
 }
 
+/*------------------------------------*   
+                SUSBCRIBE
+\*------------------------------------*/
 
 #suscribete {
     height: 325px;
