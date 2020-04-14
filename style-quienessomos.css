@@ -109,12 +109,14 @@ header .collapse {
 @media (max-width: 767px){
 	#quienesSomos p{
 		margin: 5px 0 67px 0;
+		text-align: justify;
 	}
 }
 
  @media (max-width: 576px){
 	#quienesSomos p{
 		margin: 33px 0 50px 0;
+		text-align: justify;
 	}
 }
 

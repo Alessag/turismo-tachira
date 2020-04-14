@@ -140,6 +140,9 @@ header .collapse {
 } 
 
 @media (max-width: 767px){
+	#contactanos {
+        height: 1798px;
+	}
     #contactanos .form-container{
         height: 899px;
     }
@@ -168,6 +171,10 @@ header .collapse {
         margin: 59px 0 40px 0;
     }
 }
+
+/*------------------------------------*    
+                SUBSCRIBE
+\*------------------------------------*/
 
 #suscribete {
     height: 325px;
