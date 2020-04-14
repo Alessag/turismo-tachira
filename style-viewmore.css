@@ -163,61 +163,144 @@ header .collapse {
     padding: 7px 0;
 }
 
-#footer {
-    height: 359px;
-    width: 100%;
+/*------------------------------------*    
+                FOOTER
+\*------------------------------------*/
+
+#footer{
+	text-align: justify;	
+	margin: 30px 15px;
 }
 
-#footer .container {
-    height: 100%;
-    display: flex;
-    align-items: center;
+#footer  ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 16px;
 }
 
-#footer .first-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#footer ul > li {
+	list-style: none;
+	width: 100%;
 }
 
-#footer a{
-    color: white;
+#footer  .rs > p {
+	margin-bottom: 0;
 }
 
-#footer .rs {
-    margin-top: 15px;
+#footer .rs{
+	text-align: center;
+	margin-bottom: 20px;
+} 
+
+#footer .fa {
+	font-size: 2em;
 }
 
-#footer .rs > a {
-    padding: 10px 20px; 
+#footer picture {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#footer img {
+	width: 70%;
 }
   
 @media (max-width: 992px){
-    #footer{
-        height: 610px;
-    }
+	#footer{
+		text-align: justify;	
+	}
+	
+	#footer  ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 16px;
+	}
+
+	#footer ul > li {
+		list-style: none;
+		width: 100%;
+	}
+
+	#footer  .rs > p {
+		margin-bottom: 0;
+	}
+
+	#footer .rs{
+		text-align: center;
+		margin-bottom: 20px;
+	} 
+
+	#footer .fa {
+		font-size: 2em;
+	}
+
+	#footer picture {
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	#footer img {
+		width: 70%;
+	}
 } 
 
 @media (max-width: 767px){
-    #footer{
-        height: 610px;
-    }
+	#footer{
+		text-align: center;	
+	}
+	
+	#footer  ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 16px;
+	}
 
-    #contactanos {
-        height: 1798px;
-    }
+	#footer ul > li {
+		list-style: none;
+		width: 100%;
+	}
 
-    #footer .rs > a {
-        padding: 10px 10px;
-    }
+	#footer  .rs > p {
+		margin-bottom: 0;
+	}
+
+	#footer .rs{
+		margin-bottom: 20px;
+	} 
+
+	#footer .fa {
+		font-size: 2em;
+	}
+
 }
 
 @media (max-width: 576px){
     #footer{
-        height: 610px;
-    }
-   
+		text-align: center;	
+	}
+	
+	#footer  ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 16px;
+	}
+
+	#footer ul > li {
+		list-style: none;
+		width: 100%;
+	}
+
+	#footer  .rs > p {
+		margin-bottom: 0;
+	}
+
+	#footer .rs{
+		margin-bottom: 20px;
+	} 
 }
 
 /*------------------------------------*    
