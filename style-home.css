@@ -419,36 +419,6 @@ header .collapse {
                 FOOTER
 \*------------------------------------*/
 
-/* #footer {
-    height: 359px;
-    width: 100%;
-}
-
-#footer .container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-#footer .first-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#footer a{
-    color: white;
-}
-
-#footer .rs {
-    margin-top: 15px;
-}
-
-#footer .rs > a {
-    padding: 10px 20px; 
-} */
-
 #footer{
 	text-align: justify;	
 	margin: 30px 15px;
