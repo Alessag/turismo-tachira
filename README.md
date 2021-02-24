@@ -1,5 +1,1 @@
-**Turismo en Táchira**
-
-https://ters01.gitlab.io/multimedia
-
-[](https://ters01.gitlab.io/multimedia)
+[Turismo en Táchira](https://franciscoblancojn.gitlab.io/multimedia/)
