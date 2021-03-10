@@ -172,7 +172,8 @@ header .collapse {
 
 #footer{
 	text-align: justify;	
-	margin: 30px 15px;
+	padding: 30px 15px;
+	background-color: var(--color-blue);
 }
 
 #footer  ul{
