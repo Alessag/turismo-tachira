@@ -8,12 +8,12 @@
 
 	<script src="https://use.fontawesome.com/594eb1230b.js"></script>
 
-	<link rel="stylesheet" href="global.css">
-	<link rel="stylesheet" href="style-viewmore.css">
-	<title>Sitios Turísticos</title>
+	<link rel="stylesheet" href="./css/global.css">
+	<link rel="stylesheet" href="./css/contactanos.css">
+	<title>Contáctanos</title>
 </head>
 <body>
-	<header id="menu">
+    <header id="menu">
 		<header id="menu">
 			<div>
 				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -23,14 +23,14 @@
 					</button>
 					<div class="collapse navbar-collapse" id="navbarNavDropdown">
 						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="quienesSomos.html">Quienes Somos <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="touristSites.html">Sitios turísticos</a>
+							</li>
 							<li class="nav-item active">
-								<a class="nav-link" href="page-quienessomos.html">Quienes Somos <span class="sr-only">(current)</span></a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="page-touristsites.html">Sitios turísticos</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="page-contactanos.html">Contáctanos</a>
+								<a class="nav-link " href="contactanos.html">Contáctanos</a>
 							</li>
 						</ul>
 					</div>
@@ -40,21 +40,54 @@
 		</header>
 	</header>
 
-
 	<section id="banner">
 		<picture>
-			<img src="img/viewmore.jpg" class="img-fluid" alt="Banner img">
+			<img src="img/contactanosBanner.jpg" class="img-fluid" alt="Banner img">
 		</picture>
+		 <div class="content">
+			<h1 class="title_banner">Contáctanos</h1>
+			<a href="#contactanos" class="scrolldown">
+				<svg width="28" height="48" viewBox="0 0 28 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<rect x="1" y="1" width="26" height="46" rx="13" stroke="white" stroke-width="2"/>
+				<line x1="14" y1="8" x2="14" y2="24" stroke="white" stroke-width="2"/>
+				</svg>
+			</a>
+		</div>
 	</section>
 
-	<section id="main-container">
-		<div class="blue-right">l</div>
-		<div class="container">
-			<h1>Represa Uribante-Caparo</h1>
-			<p>En la profundidad de sus aguas se encuentran sumergidas parte de las ruinas del pueblo de Potosí. La punta de una iglesia en medio del inmenso reservorio de agua así lo revela. Este es el lugar ideal para el viajero que desea encontrar paz y tranquilidad. Sus calmadas aguas, rodeadas de hermosas montañas, pueden ser recorridas a bordo de una lancha que se alquila en el lugar. También ofrece alternativas para los más aventureros, la práctica de parapente, paracaidismo, canotaje, pesca deportiva y remo. En el lugar se encuentra el Complejo Hidroeléctrico Uribante Caparo, que suministra agua a los estados andinos y parte de Barinas.</p>
-			<button class="btn"><a href="page-contactanos.html">Solicitar</a></button>
-		</div>
-		<div class="blue-left">l</div>
+	<section id="contactanos">
+			<div class="row">
+				<div class="col-md-6 form-container">
+					<div class="blue-left">l</div>
+					<div class="text-left form-content container">
+						<h3>¿En qué te podemos ayudar?</h3>
+						<form>
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<input type="text" class="form-control" id="nombre" placeholder="Nombre">
+								</div>
+								<div class="form-group col-md-6">
+									<input type="password" class="form-control" id="correoElectronico" placeholder="Correo electronico">
+								</div>
+								<div class="form-group col-md-12">
+									<textarea class="form-control" id="mensaje" placeholder="Mensaje"></textarea>
+								</div>
+							</div>						
+							<div class="form-group">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" id="gridCheck">
+									<label class="form-check-label" for="gridCheck">Acepto los términos</label>
+								</div>
+							</div>
+							<button type="submit" class="btn btn-primary">Enviar</button>
+						</form>
+					</div>
+					<div class="blue-right">l</div>
+				</div>
+				<div class="col-md-6 map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1011421.0389252757!2d-72.46307420583912!3d8.013016454754363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e65d5da199e3bc5%3A0xf863a602386ce5f5!2zVMOhY2hpcmE!5e0!3m2!1ses-419!2sve!4v1585955885803!5m2!1ses-419!2sve" width="970" height="899" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
 	</section>
 
 	<section id="suscribete" class="suscribete">
@@ -73,7 +106,7 @@
 			</div>
 		</div>
 	</section>
-
+	
 	<footer id="footer">
 		<div class="container">
 			<div class="row">
@@ -99,6 +132,7 @@
 			</div>
 		</div>
 	</footer>
+
 
 	<script src="lib/jquery/js/jquery_3_4_1_min.js"></script>
 	<script src="lib/bootstrap/js/bootstrap.js"></script>
