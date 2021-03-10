@@ -1,233 +1,300 @@
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="lib/aos/css/aos.css">
-	<link rel="stylesheet" href="lib/lightSlider/css/lightSilder.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="lib/aos/css/aos.css" />
+    <link rel="stylesheet" href="lib/lightSlider/css/lightSilder.css" />
 
-	<script src="https://use.fontawesome.com/594eb1230b.js"></script>
-	<link rel="stylesheet" href="global.css">
-	<link rel="stylesheet" href="style-home.css">
+    <script src="https://use.fontawesome.com/594eb1230b.js"></script>
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="style-home.css" />
 
+    <title>Home</title>
+  </head>
+  <body>
+    <header id="menu">
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="index.html"
+            ><img src="img/Logo.png" alt="Logo image"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="page-quienessomos.html"
+                  >Quienes Somos <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page-touristsites.html"
+                  >Sitios turísticos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="page-contactanos.html">Contáctanos</a>
+              </li>
+            </ul>
+          </div>
 
-	<title>Home</title>
-</head>
-<body>
-	<header id="menu">
-		<div>
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-				<a class="navbar-brand" href="index.html"><img src="img/Logo.png" alt="Logo image"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav">
-						<li class="nav-item active">
-							<a class="nav-link" href="page-quienessomos.html">Quienes Somos <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="page-touristsites.html">Sitios Turisticos</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="page-contactanos.html">Contáctanos</a>
-						</li>
-					</ul>
-				</div>
+          <button class="btn2 btn-login">Login</button>
+        </nav>
+      </div>
+    </header>
 
-				<button class="btn2 btn-login">Login</button>
-			</nav>
-		</div>
-	</header>
-
-	<section id="banner" class="banner">
-		<div id="slider_banner">
-			<picture class="item">
-				<img src="img/slider_img_1.jpg" alt="slider image">
-			</picture>
-			<picture class="item">
-				<img src="img/slider_img_2.jpg" alt="slider image">
-			</picture>
-			<picture class="item">
-				<img src="img/slider_img_3.jpg" alt="slider image">
-			</picture>
-			<picture class="item">
-				<img src="img/slider_img_4.jpg" alt="slider image">
-			</picture>
-		</div>
-		<div class="content container">
-			<div class="content_arrow">
-				<a href="javascript:void(0)" onclick='slider_banner.goToPrevSlide()' class="arrow prev"></a>
-				<a href="javascript:void(0)" onclick='slider_banner.goToNextSlide()' class="arrow next"></a>
-			</div>
-			<div class="info text-center">
-				<h1 class="title_banner">
-					TURISMO 
-					en 
-					TÁCHIRA
-				</h1>
-				<a href="page-quienessomos.html" class="btn2">Tienes que conocernos</a>
-				<a href="#quienesSomos" class="scrolldown">
-					<svg width="28" height="48" viewBox="0 0 28 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<rect x="1" y="1" width="26" height="46" rx="13" stroke="white" stroke-width="2"/>
-					<line x1="14" y1="8" x2="14" y2="24" stroke="white" stroke-width="2"/>
-					</svg>
-				</a>
-			</div>
-		</div>
-	</section>
-	<section id="quienesSomos" class="quienes_somos">
-        <div class="blue-left">l</div>      
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-12 col-lg-6">
-					<div class="info">
-						<h2 class="title">¿Quienes Somos?</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<a href="page-quienessomos.html" class="btn">Conócenos</a>
-                    </div>
-				</div>
-				<div class="col-12 col-lg-6">
-					<picture>
-						<img src="img/quienes_somos.jpg" alt="" class="img">
-                    </picture>
-				</div>
-			</div>
+    <section id="banner" class="banner">
+      <div id="slider_banner">
+        <picture class="item">
+          <img src="img/slider_img_1.jpg" alt="slider image" />
+        </picture>
+        <picture class="item">
+          <img src="img/slider_img_2.jpg" alt="slider image" />
+        </picture>
+        <picture class="item">
+          <img src="img/slider_img_3.jpg" alt="slider image" />
+        </picture>
+        <picture class="item">
+          <img src="img/slider_img_4.jpg" alt="slider image" />
+        </picture>
+      </div>
+      <div class="content container">
+        <div class="content_arrow">
+          <a
+            href="javascript:void(0)"
+            onclick="slider_banner.goToPrevSlide()"
+            class="arrow prev"
+          ></a>
+          <a
+            href="javascript:void(0)"
+            onclick="slider_banner.goToNextSlide()"
+            class="arrow next"
+          ></a>
         </div>
-		<div class="blue-right">l</div>
-	</section>
-	<section id="sitiosTuristios" class="sitios_turistios">
-		<div class="blue-left">l</div>
-		<div class="container">
-			<div class="row align-items-center flex-column-reverse flex-lg-row">
-				<div class="col-12 col-lg-6">
-					<div class="content_img">
-						<a href="">
-							<picture>
-								<img src="img/sitiosTuristios_1.jpg" alt="">
-							</picture>
-						</a>
-						<a href="">
-							<picture>
-								<img src="img/sitiosTuristios_2.jpg" alt="">
-							</picture>
-						</a>
-						<a href="">
-							<picture>
-								<img src="img/sitiosTuristios_3.jpg" alt="">
-							</picture>
-						</a>
-						<a href="">
-							<picture>
-								<img src="img/sitiosTuristios_4.jpg" alt="">
-							</picture>
-						</a>
-					</div>
-				</div>
-				<div class="col-12 col-lg-6">
-					<div class="info text-right">
-						<h2 class="title">
-							Sitios Turistios
-						</h2>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
-						<a href="page-touristsites.html" class="btn">
-							Ver más
-						</a>
-					</div>
-				</div>
-			</div>
+        <div class="info text-center">
+          <h1 class="title_banner">TURISMO en TÁCHIRA</h1>
+          <a href="page-quienessomos.html" class="btn2"
+            >Tienes que conocernos</a
+          >
+          <a href="#quienesSomos" class="scrolldown">
+            <svg
+              width="28"
+              height="48"
+              viewBox="0 0 28 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="1"
+                y="1"
+                width="26"
+                height="46"
+                rx="13"
+                stroke="white"
+                stroke-width="2"
+              />
+              <line
+                x1="14"
+                y1="8"
+                x2="14"
+                y2="24"
+                stroke="white"
+                stroke-width="2"
+              />
+            </svg>
+          </a>
         </div>
-		<div class="blue-right">l</div>
-	</section>
-	<section id="contactanos" class="contactanos quienes_somos">
-		<div class="blue-left">l</div>
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-12 col-lg-6">
-					<div class="info">
-						<h2 class="title">Contáctanos</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<a href="page-contactanos.html" class="btn">Contáctanos</a>
-					</div>
-				</div>
-				<div class="col-12 col-lg-6">
-					<picture>
-						<img src="img/contacto.jpg" alt="Keep in touch image" class="img">
-					</picture>
-				</div>
-			</div>
+      </div>
+    </section>
+    <section id="quienesSomos" class="quienes_somos">
+      <div class="blue-left">l</div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6">
+            <div class="info">
+              <h2 class="title">¿Quienes Somos?</h2>
+              <p>
+				Creemos en Venezuela y estamos orgullosos de nuestra biodiversidad. Nuestra forma de hacerlo es promoviendo la industria del turismo, traduciendo toda la diversidad de los destinos del estado Táchira en una oferta turística atractiva, de alta calidad y al alcance de todos.Por eso somos una agencia de viajes especializada en turismo receptivo, con la que brindamos fabulosos paquetes turísticos, disponibles en el portal web www.turismotachira.com haciendo sencilla la forma de viajar por el estado Táchira; ofreciendo rutas innovadoras, excelencia operativa y experiencias auténticas.
+              </p>
+              <a href="page-quienessomos.html" class="btn">Conócenos</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <picture>
+              <img src="img/quienes_somos.jpg" alt="" class="img" />
+            </picture>
+          </div>
         </div>
-		<div class="blue-right">l</div>
-	</section>
-	<section id="suscribete" class="suscribete">
-		<picture>
-			<img src="img/suscribete.jpg" alt="Suscribe image">
-		</picture>
-		<div class="content">
-			<div class="container ">
-				<h2 class="text-sm-center title">
-					¡Sigamos en contacto!
-				</h2>
-				<form action="">
-					<input type="email" placeholder="Email" required>
-					<input type="submit" value="Suscribirme" class="btn2">
-				</form>
-			</div>
-		</div>
-	</section>
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-				<div class="rs col-12 col-md-6 col-lg-4">
-						<p>Email: ejemplo@gmail.com</p>
-						<p>Telefono: +00 00 00 000</p>
-						<ul>
-							<li><i class="fa fa-facebook-f"></i></li>
-							<li><i class="fa fa-instagram"></i></li>
-							<li><i class="fa fa-twitter"></i></li>
-							<li><i class="fa fa-whatsapp"></i></li>
-						</ul>
-				</div>
-				<div class="col-12 col-md-6 col-lg-4">
-					<div class="info">
-						<h5 class="title">Lorem Ipsum Dolor et sit</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-					</div>
-				</div>
-				<div class="col-12 col-md-12 col-lg-4">
-					<picture><img src="img/footer.jpg" alt=""></picture>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<script src="lib/jquery/js/jquery_3_4_1_min.js"></script>
-	<script src="lib/bootstrap/js/bootstrap.js"></script>
-	<script src="lib/bootstrap/js/bootstrap.bundle.js"></script>
-	<script src="lib/aos/js/aos.js"></script>
-	<script src="lib/lightSlider/js/lightSilder.js"></script>
-	<script type="text/javascript">
-		window.onload = function() {
-		    slider_banner = jQuery("#slider_banner").lightSlider({
-		        item: 1,
-		        slideMove: 1, // slidemove will be 1 if loop is true
-		        slideMargin: 0,
-		 
-		        speed: 400, //ms'
-		        auto: true,
-		        loop: true,
-		        pause: 5000,
-		        controls: false,
-		 
-		        onBeforeStart: function (el) {},
-		        onSliderLoad: function (el) {},
-		        onBeforeSlide: function (el) {},
-		        onAfterSlide: function (el) {},
-		        onBeforeNextSlide: function (el) {},
-		        onBeforePrevSlide: function (el) {}
-		    });
-		};
-		</script>
-</body>
+      </div>
+      <div class="blue-right">l</div>
+    </section>
+    <section id="sitiosTuristios" class="sitios_turistios">
+      <div class="blue-left">l</div>
+      <div class="container">
+        <div class="row align-items-center flex-column-reverse flex-lg-row">
+          <div class="col-12 col-lg-6">
+            <div class="content_img">
+              <a href="">
+                <picture>
+                  <img src="img/sitiosTuristios_1.jpg" alt="" />
+                </picture>
+              </a>
+              <a href="">
+                <picture>
+                  <img src="img/sitiosTuristios_2.jpg" alt="" />
+                </picture>
+              </a>
+              <a href="">
+                <picture>
+                  <img src="img/sitiosTuristios_3.jpg" alt="" />
+                </picture>
+              </a>
+              <a href="">
+                <picture>
+                  <img src="img/sitiosTuristios_4.jpg" alt="" />
+                </picture>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="info text-right">
+              <h2 class="title">Sitios turísticos</h2>
+              <p>
+                En el estado Táchira podrás encontrar desde sitios turísticos
+                hasta uno de los mejores hoteles del estado. Los habitantes del
+                estado son conocidos por ser amigable con los visitantes y
+                francamente abierta y dispuesta hacia todos aquellos que estén,
+                en cualquier circunstancia, en su territorio. La disposición
+                para recibir a los turistas y visitantes le ha valido el nombre
+                de "Ciudad de la Cordialidad". Algunos de los sitios turísticos
+                que se encuentran en el estado Tachira son los siguientes:
+                Parque Nacional Juan Pablo Peñaloza, Parque Nacional El Chorro
+                El Indio, , Represa Uribante Caparo, Páramo El Zumbador,
+                Catedral de San Cristobal.
+              </p>
+              <a href="page-touristsites.html" class="btn"> Ver más </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="blue-right">l</div>
+    </section>
+    <section id="contactanos" class="contactanos quienes_somos">
+      <div class="blue-left">l</div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6">
+            <div class="info">
+              <h2 class="title">Contáctanos</h2>
+              <p>
+                Ofrecemos todos los servicios con choferes profesionales y
+                experimentados en la zona. Tenemos guías que hablan español,
+                ingles y francés. Todos los vehículos son adecuados para
+                recorrer los difíciles caminos y contamos con el equipo
+                necesario para enfrentar cada expedición y aventura. Trabajamos
+                con el mejor personal de la zona avalados por años de
+                experiencia en el rubro del turismo en el estado Tachira para
+                que tengan una grata estadía durante su visita a esta
+                maravillosa zona de Venezuela.
+              </p>
+              <a href="page-contactanos.html" class="btn">Contáctanos</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <picture>
+              <img
+                src="img/contacto.jpg"
+                alt="Keep in touch image"
+                class="img"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+      <div class="blue-right">l</div>
+    </section>
+    <section id="suscribete" class="suscribete">
+      <picture>
+        <img src="img/suscribete.jpg" alt="Suscribe image" />
+      </picture>
+      <div class="content">
+        <div class="container">
+          <h2 class="text-sm-center title">¡Sigamos en contacto!</h2>
+          <form action="">
+            <input type="email" placeholder="Email" required />
+            <input type="submit" value="Suscribirme" class="btn2" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="rs col-12 col-md-6 col-lg-4">
+            <p>Email: ejemplo@gmail.com</p>
+            <p>Telefono: +00 00 00 000</p>
+            <ul>
+              <li><i class="fa fa-facebook-f"></i></li>
+              <li><i class="fa fa-instagram"></i></li>
+              <li><i class="fa fa-twitter"></i></li>
+              <li><i class="fa fa-whatsapp"></i></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="info">
+              <h5 class="title">Lorem Ipsum Dolor et sit</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <picture><img src="img/footer.jpg" alt="" /></picture>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="lib/jquery/js/jquery_3_4_1_min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="lib/aos/js/aos.js"></script>
+    <script src="lib/lightSlider/js/lightSilder.js"></script>
+    <script type="text/javascript">
+      window.onload = function () {
+        slider_banner = jQuery("#slider_banner").lightSlider({
+          item: 1,
+          slideMove: 1, // slidemove will be 1 if loop is true
+          slideMargin: 0,
+
+          speed: 400, //ms'
+          auto: true,
+          loop: true,
+          pause: 5000,
+          controls: false,
+
+          onBeforeStart: function (el) {},
+          onSliderLoad: function (el) {},
+          onBeforeSlide: function (el) {},
+          onAfterSlide: function (el) {},
+          onBeforeNextSlide: function (el) {},
+          onBeforePrevSlide: function (el) {},
+        });
+      };
+    </script>
+  </body>
 </html>
