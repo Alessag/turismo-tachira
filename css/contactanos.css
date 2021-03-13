@@ -205,8 +205,11 @@ header .collapse {
     align-items: center;
 }
 
-#suscribete input[type="email"]{
-    padding: 7px 0;
+#suscribete input[type="email"],
+#suscribete input[type="submit"] {
+  padding: 7px 0;
+  margin-bottom: 5px;
+  width: 100%;
 }
 
 /*------------------------------------*    
