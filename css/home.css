@@ -395,7 +395,7 @@ header .collapse {
 }
 
 #contactanos {
-  text-align: justify;
+  text-align: left;
 }
 
 /*------------------------------------*    
@@ -431,7 +431,20 @@ header .collapse {
   align-items: center;
 }
 
-#suscribete input[type="email"],
+.content .container h2 {
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
+#suscribete input[type="email"] {
+  padding: 7px 10px;
+  margin-right: 10px;
+}
+
 #suscribete input[type="submit"] {
   padding: 10px 10px;
   margin-bottom: 5px;

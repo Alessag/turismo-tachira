@@ -1,4 +1,4 @@
-/*------------------------------------*    
+/*------------------------------------*
                 HEADER
 \*------------------------------------*/
 header .menu  ul {
@@ -27,13 +27,13 @@ header .collapse {
     header .btn-login {
 		display: none;
 	}
-} 
+}
 
-/*------------------------------------*    
+/*------------------------------------*
                 BANNER
 \*------------------------------------*/
  #banner {
-    --height-img: 900px; 
+    --height-img: 900px;
 
     height: var(--height-img);
     width: 100%;
@@ -55,7 +55,7 @@ header .collapse {
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 40%; 
+    top: 40%;
     text-align: center;
     width: 60%;
     display: flex;
@@ -70,9 +70,9 @@ header .collapse {
 #banner form input:first-child{
     padding: 1%;
     margin: 0 3px 5px 0;
-} 
+}
 
-/*------------------------------------*    
+/*------------------------------------*
                 SEARCH
 \*------------------------------------*/
 #search {
@@ -108,7 +108,7 @@ header .collapse {
     }
  }
 
-/*------------------------------------*   
+/*------------------------------------*
                 ITEMS
 \*------------------------------------*/
 #items {
@@ -116,7 +116,7 @@ header .collapse {
     padding-top: 70px;
 }
 
-#items .item-desc{    
+#items .item-desc{
     color: var(--color-white);
     background-color: var(--color-blue);
     padding: 0;
@@ -124,7 +124,7 @@ header .collapse {
 }
 #items .item-desc a{
     color: var(--color-white);
-}    
+}
 
 #items h3, button {
     margin: 20px 0 30px 0;
@@ -141,11 +141,11 @@ header .collapse {
     padding-top: 70px;
 }
 
-@media (max-width: 992px){   
+@media (max-width: 992px){
     #search .right-content .form-control{
         margin-bottom: 20px;
    }
-} 
+}
 
 @media (max-width: 767px){
 	#search .right-content .form-control{
@@ -163,7 +163,7 @@ header .collapse {
     }
 }
 
-/*------------------------------------*   
+/*------------------------------------*
                 SUSBCRIBE
 \*------------------------------------*/
 
@@ -209,13 +209,30 @@ header .collapse {
   margin-bottom: 5px;
   width: 100%;
 }
- 
-/*------------------------------------*    
+.content .container h2 {
+	margin-bottom: 30px;
+  }
+
+  .form {
+	display: flex;
+	flex-direction: row;
+  }
+
+  /* #suscribete input[type="email"] {
+	padding: 7px 10px;
+	margin-right: 10px;
+  }
+
+  #suscribete input[type="submit"] {
+	width: 180px;
+  } */
+
+/*------------------------------------*
                 FOOTER
 \*------------------------------------*/
 
 #footer{
-	text-align: justify;	
+	text-align: justify;
 	padding: 30px 15px;
 	background-color: var(--color-blue);
 }
@@ -239,7 +256,7 @@ header .collapse {
 #footer .rs{
 	text-align: center;
 	margin-bottom: 20px;
-} 
+}
 
 #footer .fa {
 	font-size: 2em;
@@ -253,12 +270,12 @@ header .collapse {
 #footer img {
 	width: 70%;
 }
-  
+
 @media (max-width: 992px){
 	#footer{
-		text-align: justify;	
+		text-align: justify;
 	}
-	
+
 	#footer  ul{
 		display: flex;
 		flex-direction: row;
@@ -278,7 +295,7 @@ header .collapse {
 	#footer .rs{
 		text-align: center;
 		margin-bottom: 20px;
-	} 
+	}
 
 	#footer .fa {
 		font-size: 2em;
@@ -292,13 +309,13 @@ header .collapse {
 	#footer img {
 		width: 70%;
 	}
-} 
+}
 
 @media (max-width: 767px){
 	#footer{
-		text-align: center;	
+		text-align: center;
 	}
-	
+
 	#footer  ul{
 		display: flex;
 		flex-direction: row;
@@ -317,7 +334,7 @@ header .collapse {
 
 	#footer .rs{
 		margin-bottom: 20px;
-	} 
+	}
 
 	#footer .fa {
 		font-size: 2em;
@@ -327,9 +344,9 @@ header .collapse {
 
 @media (max-width: 576px){
     #footer{
-		text-align: center;	
+		text-align: center;
 	}
-	
+
 	#footer  ul{
 		display: flex;
 		flex-direction: row;
@@ -348,10 +365,10 @@ header .collapse {
 
 	#footer .rs{
 		margin-bottom: 20px;
-	} 
+	}
 }
 
-/*------------------------------------*    
+/*------------------------------------*
                 Body
 \*------------------------------------*/
 
