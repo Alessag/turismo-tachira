@@ -130,6 +130,13 @@ header .collapse {
     margin: 20px 0 30px 0;
 }
 
+@media (max-width: 400px) {
+	#items h3 {
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+}
+
 #items .more-sites{
     padding-top: 70px;
 }
@@ -183,6 +190,13 @@ header .collapse {
     text-align: center;
     width: 60%;
 }
+
+@media (max-width: 625px) {
+	#suscribete .content {
+		top: 20%;
+	}
+}
+
 .content .container {
     display: flex;
     flex-direction: column;
@@ -191,7 +205,7 @@ header .collapse {
 
 #suscribete input[type="email"],
 #suscribete input[type="submit"] {
-  padding: 7px 0;
+  padding: 10px 10px;
   margin-bottom: 5px;
   width: 100%;
 }

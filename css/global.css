@@ -111,6 +111,13 @@ a:focus,input:focus,button:focus,textarea:focus,.btn:focus{
 	--shodow-btn:4px 8px 10px hsla(0,0%,0%,.25);
 	box-shadow: var(--shodow-btn), inset 0 0 0 0px var(--color-green),inset 0 0 0 0px var(--color-cian);
 }
+
+@media (max-width:500px) {
+	#button-addon2 {
+		width: 200px;
+	}
+}
+
 .btn:hover,.btn2:hover{
 	box-shadow: var(--shodow-btn), inset 0 0 0 0px var(--color-green),inset 0 0 0 50px var(--color-cian);
 	color: var(--color-black);
@@ -130,6 +137,16 @@ picture{
 	display: inline-block;
 	position: relative;
 }
+
+@media (max-width:500px) {
+	picture {
+		z-index: 1;
+	}
+	.info p {
+		text-align: justify;
+	}
+}
+
 img{
 	width: auto;
 	max-width: 100%;

@@ -168,7 +168,8 @@ header .collapse {
     }
 
     #contactanos .form-container h3{
-        margin: 59px 0 40px 0;
+		margin: 59px 0 40px 0;
+		text-align: center;
     }
 }
 
@@ -199,6 +200,12 @@ header .collapse {
     text-align: center;
     width: 60%;
 }
+
+@media (max-width: 625px) {
+	#suscribete .content {
+		top: 20%;
+	}
+}
 .content .container {
     display: flex;
     flex-direction: column;
@@ -207,7 +214,7 @@ header .collapse {
 
 #suscribete input[type="email"],
 #suscribete input[type="submit"] {
-  padding: 7px 0;
+  padding: 10px 10px;
   margin-bottom: 5px;
   width: 100%;
 }

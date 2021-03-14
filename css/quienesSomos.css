@@ -196,6 +196,14 @@ header .collapse {
 		height: 264px;
 	}
 }
+
+@media (max-width:500px) {
+	.sitios_turisticos .title {
+		text-align: center;
+		margin-bottom: 25px;
+	}
+}
+
 @media (max-width: 575px){
 	.sitios_turisticos .content_img a{
 		min-width: 60%;
@@ -235,6 +243,13 @@ header .collapse {
     text-align: center;
     width: 60%;
 }
+
+@media (max-width: 625px) {
+	#suscribete .content {
+		top: 20%;
+	}
+}
+
 .content .container {
     display: flex;
     flex-direction: column;
@@ -243,7 +258,7 @@ header .collapse {
 
 #suscribete input[type="email"],
 #suscribete input[type="submit"] {
-  padding: 7px 0;
+  padding: 10px 10px;
   margin-bottom: 5px;
   width: 100%;
 }

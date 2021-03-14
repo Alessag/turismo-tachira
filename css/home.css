@@ -118,6 +118,13 @@ header .collapse {
   margin-bottom: 160px;
 }
 
+@media (max-width: 420px) {
+  #banner .info .btn2 {
+    width: 235px;
+    height: auto;
+  }
+}
+
 @media (max-width: 991px) {
   .banner {
     --height: 900px;
@@ -237,6 +244,13 @@ header .collapse {
 
   .quienes_somos .img {
     width: 80%;
+  }
+}
+
+@media (max-width:500px) {
+	.quienes_somos .title, .sitios_turistios .title {
+    text-align: center;
+    margin-bottom: 25px;  
   }
 }
 
@@ -419,7 +433,7 @@ header .collapse {
 
 #suscribete input[type="email"],
 #suscribete input[type="submit"] {
-  padding: 7px 0;
+  padding: 10px 10px;
   margin-bottom: 5px;
   width: 100%;
 }
