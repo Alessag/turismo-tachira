@@ -205,12 +205,23 @@ header .collapse {
     align-items: center;
 }
 
-#suscribete input[type="email"],
-#suscribete input[type="submit"] {
-  padding: 7px 0;
-  margin-bottom: 5px;
-  width: 100%;
-}
+.content .container h2 {
+	margin-bottom: 30px;
+  }
+  
+  .form {
+	display: flex;
+	flex-direction: row;
+  }
+  
+  #suscribete input[type="email"] {
+	padding: 7px 10px;
+	margin-right: 10px;
+  }
+  
+  #suscribete input[type="submit"] {
+	width: 180px;
+  }
 
 /*------------------------------------*    
                 FOOTER
