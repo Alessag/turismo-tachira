@@ -440,11 +440,7 @@ header .collapse {
   flex-direction: row;
 }
 
-#suscribete input[type="email"] {
-  padding: 7px 10px;
-  margin-right: 10px;
-}
-
+#suscribete input[type="email"],
 #suscribete input[type="submit"] {
   padding: 10px 10px;
   margin-bottom: 5px;
